@@ -55,7 +55,6 @@ body{
 #carousel img{
     display: flex;
     height: 30em;
-    max-width: 50em;
     object-fit: cover;
 }
 #cards{
