@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+/* NAVBAR */
+
+#navbar {
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+#navbar a:hover {
+    color: #454545;
+}
+#navbar a.active {
+    border-bottom: 1px solid black;
+}
+.navbar-brand {
+    display: flex;
+}
+.navbar-brand span {
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-left: 0.5em;
+}
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+/* Carrosel */
+
+#carousel{
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#carousel .carousel-caption {
+    bottom: 3em;
+}
+#carousel .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000000 2px 2px;
+}
+#carousel .carousel-item{
+    height: 10%;
+}
+#carousel img{
+    display: flex;
+    height: 30em;
+    max-width: 50em;
+    object-fit: cover;
+}
+#cards{
+    justify-content: center;
+    gap: 10px;
+}
+
+#footer{
+    padding: 3em 2em;
+    background-color: white;
+}
+#footer-top{
+    margin-bottom: 2em;
+}
+
+#social-icons{
+    text-align: right;    
+    color: #37f640;
+}
+
+
+
